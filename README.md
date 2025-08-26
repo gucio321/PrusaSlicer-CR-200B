@@ -4,7 +4,7 @@ This repository contains a working set of presets for the Creality CR-200B 3D pr
 
 ## Why?
 Since Creality CR-200B is a relatively old printer, it is not supported by the latest version of a dedicated slicer [Creality Print](https://github.com/CrealityOfficial/CrealityPrint).
-The old version of Creality Print that is supposed to support CR-200B has only few features and is completely outdated so it simply cannot be used as a modern slicer.
+The old version of Creality Print that is supposed to support CR-200B has really few features and is completely outdated so it simply cannot be used as a modern slicer.
 The @CrealityOfficial team [refused to re-add CR-200B support to the latest slicer version](https://github.com/CrealityOfficial/CrealityPrint/issues/424#issuecomment-3111698503) so I decided to create my own presets, but this time for PrusaSlicer as I know it better than Creality Print.
 
 ## How to use
@@ -40,3 +40,8 @@ I added presets for 3 nozzle sizes:
     - Supported Nozzle: 0.2 mm
     - Enables Ironing and Avoids Crossing Perimeters
     - Used for very, very high quality prints, but takes a whole lot of time
+
+### Filaments
+
+> [!Note]
+> Currently, this repo does not contain any special filament presets. The one I'm using is the generic PLA with customized Flow Ratio and Temperature.
